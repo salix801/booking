@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meata charset="utf-8"/>
+		<meata http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0m user-scalable=no">
+		<title>My Web Page</title>
+
+		<style type="text/css">
+
+			.photo {
+				margin: 35px auto;
+				width: 250px;
+				padding: 7px 7px 15px 7px;
+				border: 1px solid #bfbfbf;
+				background-color: #fff;
+				box-shadow: 2px 2px 5px rgba(135, 139, 144, 0.7);
+			}
+
+			.photo {
+				padding-top: 7px;
+				text-align: center;
+				font-weight: bold;
+				font-size: 12px;
+				color: #060;
+			}
+
+			.photo > img {
+				width: 100%;
+			}
+
+			.transform1 {
+				transform: rotate(-5deg);
+			}
+
+			.transform2 {
+				transform: rotate(3deg) scale(1.2, 1.2);
+			}
+
+			.transform3 {
+				transform: skew(-5deg, 2deg);
+			}
+
+			.transform4 {
+				transform: translate(100px, -550px) rotate(15deg) scale(0.7, 0.7);
+			}
+			
+		</style>
+	</head>
+
+	<body>
+		<div class="photo transform1">
+			<img src="img/spring.jpg">
+			<p> 봄에는 모든 것들이 깨어난다. </p>
+		</div>
+
+		<div class="photo transform2">
+			<img src="img/summer.jpg">
+			<p> 여름은 모든것이 힘차다. </p>
+		</div>
+
+		<div class="photo transform3">
+			<img src="img/autumn.jpg">
+			<p> 가을에는 감사하자. </p>
+		</div>
+
+		<div class="photo transform4">
+			<img src="img/winter.jpg">
+			<p> 겨울에는 모든 일들을 덮는다. </p>
+		</div>
+	</body>
+</html>
